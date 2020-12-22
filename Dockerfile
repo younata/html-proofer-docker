@@ -9,6 +9,7 @@ RUN apk add --no-cache \
 RUN apk add --no-cache --virtual build-dependencies \
   build-base \
   libxml2-dev \
+  xz-dev \
   libxslt-dev \
   && gem install html-proofer \
   && apk del build-dependencies
