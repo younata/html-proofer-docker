@@ -4,12 +4,11 @@ RUN echo 'gem: --no-document' >> /etc/gemrc
 
 # needed at runtime
 RUN apk add --no-cache \
-  libcurl
+  libcurl xz-dev
 
 RUN apk add --no-cache --virtual build-dependencies \
   build-base \
   libxml2-dev \
-  xz-dev \
   libxslt-dev \
   && gem install html-proofer \
   && apk del build-dependencies
