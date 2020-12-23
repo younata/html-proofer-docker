@@ -1,4 +1,4 @@
-# HTML Proofer, Dockerized
+# HTML Proofer, Dockerized [![Build Status](https://ci.younata.com/api/v1/teams/main/pipelines/other/jobs/htmlproofer/badge)](https://ci.younata.com/teams/main/pipelines/other/jobs/htmlproofer/)
 
 HTML validation, made easy. This repository is the [HTML Proofer](https://github.com/gjtorikian/html-proofer) Ruby gem wrapped up in a Docker container, so you don't have to fuss with installing things like [Ruby](https://www.ruby-lang.org/) or [Nokogiri](http://www.nokogiri.org/).
 
